@@ -1,0 +1,64 @@
+body {
+    background-color: #dc7da3;
+    color: #4a2a36;
+}
+
+
+.navbar {
+    background-color: #d63384;
+}
+
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffe6f0;
+}
+
+
+.form-control {
+    border-color: #f3a6c8;
+}
+
+
+.card {
+    aspect-ratio: 1 / 1;
+    background-color: #fff0f6;
+    border: 10px solid #f3a6c8;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.card img {
+    width: 100;
+    height: 65%;
+    object-fit: contain;
+}
+
+.card-body {
+    background-color: #fff0f6;
+}
+
+.card-text {
+    color: #672036;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+footer a {
+    color: #c2185b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
