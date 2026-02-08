@@ -1,39 +1,57 @@
 body {
     background-color: #dc7da3;
-    color: #4a2a36;
+    color: #672036;
 }
-
 
 .navbar {
     background-color: #d63384;
 }
 
-
 .navbar-brand {
-    color: #ffffff;
+    color: #672036;
 }
 
 .navbar-brand:hover {
-    color: #ffe6f0;
+    color: #901244;
 }
 
-
-.form-control {
-    border-color: #f3a6c8;
+.form-control,
+.form-select {
+    background-color: #f8a8c8;
+    border: 2px solid #d63384;
+    color: #672036;
 }
 
+.form-control:focus,
+.form-select:focus {
+    border-color: #c2185b;
+    box-shadow: 0 0 0 0.2rem rgba(214, 51, 132, 0.25);
+}
+
+.btn-primary {
+    background-color: #f8a8c8;
+    border-color: #d63384;
+    color: #672036;
+}
+
+.btn-primary:hover {
+    background-color: #901244;
+    border-color: #c2185b;
+    color: #ffffff;
+}
 
 .card {
     aspect-ratio: 1 / 1;
     background-color: #fff0f6;
     border: 10px solid #f3a6c8;
-    overflow: hidden;
     display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.2s ease;
 }
 
-
 .card img {
-    width: 100;
+    width: 100%;
     height: 65%;
     object-fit: contain;
 }
@@ -50,7 +68,6 @@ body {
 
 .card:hover {
     transform: scale(1.05);
-    transition: transform 0.2s ease;
 }
 
 footer a {
